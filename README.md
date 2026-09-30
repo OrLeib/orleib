@@ -1,15 +1,13 @@
-# Hi, I'm Or 👋
+# Or Leib
 
-Software engineer working across web and mobile: Next.js, TypeScript, React, Capacitor (iOS and Android), Supabase.
+I'm a full-stack engineer. I spent seven years at Wix, most recently as tech lead on Wix Code AI, where we built the AI App Builder. Before that I worked on the deployment platform every Wix engineer ships through.
 
-## Open source
+On the side I'm building [Numi](https://numinumi.co.il), an app for parents and baby sleep consultants, which I co-founded.
 
-- **Capgo capacitor-updater:** fixed an iOS race condition that crashed apps in production by moving all plugin events onto the main thread. Merged, released in v8.52.0. ([#932](https://github.com/Cap-go/capacitor-updater/pull/932))
-- **Next.js / Turbopack:** fixed `.d.cts` / `.d.mts` declaration files breaking builds when matched by dynamic worker paths. In review. ([#99439](https://github.com/vercel/next.js/pull/99439))
-- **Next.js / Turbopack:** fixed `new Worker()` failing in ESM packages that build paths from `import.meta.url`. In review. ([#99457](https://github.com/vercel/next.js/pull/99457))
-- **Capacitor:** made iOS plugin event listeners thread-safe, verified with Thread Sanitizer. In review. ([#8635](https://github.com/ionic-team/capacitor/pull/8635))
+When something breaks in a tool I depend on, I try to fix it upstream:
 
-## Bug reproductions
+- A crash in Capgo's iOS updater, merged in [Cap-go/capacitor-updater#932](https://github.com/Cap-go/capacitor-updater/pull/932)
+- Two Turbopack bugs around worker paths in Next.js: [#99439](https://github.com/vercel/next.js/pull/99439) and [#99457](https://github.com/vercel/next.js/pull/99457)
+- Thread safety for plugin events in Capacitor on iOS: [ionic-team/capacitor#8635](https://github.com/ionic-team/capacitor/pull/8635)
 
-- [turbopack-dcts-worker-repro](https://github.com/orleib-lab/turbopack-dcts-worker-repro)
-- [turbopack-worker-import-meta-repro](https://github.com/orleib-lab/turbopack-worker-import-meta-repro)
+[LinkedIn](https://linkedin.com/in/orleib)
