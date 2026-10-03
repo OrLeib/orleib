@@ -14,5 +14,3 @@ When something breaks in a tool I depend on, I try to fix it upstream:
 - A crash in Capgo's iOS updater, merged in [Cap-go/capacitor-updater#932](https://github.com/Cap-go/capacitor-updater/pull/932)
 - Two Turbopack bugs around worker paths in Next.js: [#99439](https://github.com/vercel/next.js/pull/99439) and [#99457](https://github.com/vercel/next.js/pull/99457)
 - Thread safety for plugin events in Capacitor on iOS: [ionic-team/capacitor#8635](https://github.com/ionic-team/capacitor/pull/8635)
-
-[LinkedIn](https://linkedin.com/in/orleib)
